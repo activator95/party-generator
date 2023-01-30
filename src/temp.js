@@ -1,6 +1,6 @@
 const renderTeam = (team) => {
     // Create the developer for data inputs
-    const renderdeveloper = (developer) => `
+    const renderDeveloper = (developer) => `
     <div class="card col-3 me-3 mb-5 employee-card">
         <img src="${developer.imgSrc}">
         <div class="card-header employee-header">
@@ -69,7 +69,7 @@ const renderTeam = (team) => {
 const html = [];
 
 // Add team members to the empty array for the HTML
-html.push(...team.filter((employee) => employee.getRole() === 'developer').map((developer) => renderdeveloper(developer)));
+html.push(...team.filter((employee) => employee.getRole() === 'Developer').map((developer) => renderDeveloper(developer)));
 
 html.push(team.filter((employee) => employee.getRole() === 'Manager').map((manager) => renderManager(manager)));
 

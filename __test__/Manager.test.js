@@ -13,9 +13,9 @@ expect(typeof employeeObject).toBe('object');
 test('An office number can be added to the Manager object', () => {
 const testOfficeNumber = 4;
 const employeeInstance = new Manager(
-'John Smith',
-1234,
-'johnsmith@example.com',
+'Jim Smith',
+9018,
+'jimsemail@gmail.com',
 'assets\app_img\manager.jpg',
 testOfficeNumber
 );
@@ -25,9 +25,9 @@ expect(employeeInstance.officeNumber).toBe(testOfficeNumber);
 test('Manager has been added as the value for the property of role', () => {
 const returnValue = 'Manager';
 const employeeInstance = new Manager(
-'John Smith',
-1234,
-'johnsmith@example.com',
+'Jim Smith',
+9018,
+'jimsemail@gmail.com',
 'assets\app_img\manager.jpg',
 4
 );
@@ -39,9 +39,9 @@ expect(employeeInstance.getRole()).toBe(returnValue);
 test('office number is retrieved through the getOfficeNumber() method', () => {
 const testOfficeNumber = 4;
 const employeeInstance = new Manager(
-'John Smith',
-1234,
-'johnsmith@example.com',
+'Jim Smith',
+9018,
+'jimsemail@gmail.com',
 'assets\app_img\manager.jpg',
 testOfficeNumber
 );

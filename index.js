@@ -60,13 +60,8 @@ function addManager() {
             },
             {
                 type: 'input',
-                name: 'imgSrc',
-                message: 'What is the imgSrc of the team manager?',
-            },
-            {
-                type: 'input',
                 name: 'officeNumber',
-                message: 'What is the office number of the team manager?',
+                message: 'What is the Office EXT of the team manager?',
             },
         ])
         .then((val) => {
@@ -95,11 +90,6 @@ function addDeveloper() {
                 type: 'input',
                 name: 'email',
                 message: `What is the developer's email address?`,
-            },
-            {
-                type: 'input',
-                name: 'imgSrc',
-                message: 'What is the img Src of the developer?',
             },
             {
                 type: 'input',
@@ -133,11 +123,6 @@ function addIntern() {
                 type: 'input',
                 name: 'email',
                 message: `What is the Intern's email address?`,
-            },
-            {
-                type: 'input',
-                name: 'imgSrc',
-                message: 'What is the img Src of the Intern?',
             },
             {
                 type: 'input',

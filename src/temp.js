@@ -37,7 +37,7 @@ const renderTeam = (team) => {
                             <li class="list-group-item">
                                 Email: <a href="mailto:${manager.email}">${manager.email}</a>
                             </li>
-                            <li class="list-group-item">Office number: ${manager.officeNumber}</li>
+                            <li class="list-group-item">Office EXT: ${manager.officeNumber}</li>
                         </ul>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const renderTeam = (team) => {
                         Email: <a href="mailto:${intern.email}">${intern.email}</a>
                     </li>
                     <li class="list-group-item">
-                    <li class="list-group-item">Office number: ${intern.school}</li>
+                    <li class="list-group-item">School Attended: ${intern.school}</li>
                     </li>
                 </ul>
             </div>
